@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <script src="products.js" defer></script>
+    <script src="cart.js" defer></script>
+    <title>Your cart | Korio</title>
+</head>
+<body>
+<header class="header">
+    <a class="header__logo-link" href="index.html" aria-label="Back to Korio homepage">KORIO</a>
+    <h1 class="headerTitle">Your cart</h1>
+    <a class="continue-shopping" href="shop.html">Continue shopping</a>
+</header>
+<main class="cart-page">
+    <div class="cart-heading">
+      <div>
+        <p class="cart-eyebrow">KORIO CHECKOUT</p>
+        <h2>Your shopping cart</h2>
+      </div>
+      <span id="cart-item-count">0 items</span>
+    </div>
+    <div class="cart-layout">
+      <section id="cart-items" class="cart-items" aria-label="Items in your cart"></section>
+      <aside class="cart-summary" aria-label="Order summary">
+        <h2>Order summary</h2>
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <strong id="cart-total">€0.00</strong>
+        </div>
+        <a class="summary-continue" href="shop.html">Continue shopping</a>
+      </aside>
+    </div>
+</main>
+</body>
+</html>
