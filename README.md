@@ -10,8 +10,9 @@ Users can:
 - View product ratings
 
 ## Code used
+
 - HTML
 - CSS
 - JavaScript
 
-![KORIO](mha.jpg)
+![KORIO](Webshop/img/mha.jpg)
